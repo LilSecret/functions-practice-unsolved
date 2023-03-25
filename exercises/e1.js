@@ -34,7 +34,7 @@ logMessage();
 
 // Your code goes here...
 function logMyMessage(message) {
-  message = 'Here is my first output ever!';
+  message = 'Here is my first output';
   return console.log(message)
 }
 
