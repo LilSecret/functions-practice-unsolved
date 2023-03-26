@@ -16,7 +16,9 @@
 
 // Your code goes here...
 function doesArrayIncludeItemsBetweenVals(arr, num1, num2) {
-  return console.log( arr.some( x => x > num1 && x < num2 ) )
+  for(let i = 0; i < arr.length; i++) {
+    return console.log( arr.some( x => x > num1 && x < num2 ) )
+  }
 }
 
 /**
@@ -63,10 +65,10 @@ const getValueWithConditionThree = function (num1, num2) {
 
 
 // Do not delete or change the lines beneath
-// const f = {
-//   doesArrayIncludeItemsBetweenVals: doesArrayIncludeItemsBetweenVals || undefined,
-//   getValueWithConditionOne: getValueWithConditionOne || undefined,
-//   getValueWithConditionTwo: getValueWithConditionTwo || undefined,
-//   getValueWithConditionThree: getValueWithConditionThree || undefined,
-// }
-// export { f };
+const f = {
+  doesArrayIncludeItemsBetweenVals: doesArrayIncludeItemsBetweenVals || undefined,
+  getValueWithConditionOne: getValueWithConditionOne || undefined,
+  getValueWithConditionTwo: getValueWithConditionTwo || undefined,
+  getValueWithConditionThree: getValueWithConditionThree || undefined,
+}
+export { f };
