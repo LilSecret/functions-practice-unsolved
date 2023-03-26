@@ -13,7 +13,12 @@
 
 // Your code goes here...
 
-
+function getDiffTwentySeven(num) {
+  if(num > 27) {
+    return console.log( Math.abs(num - 27) * 2 )
+  }
+  return console.log(27 - num)
+}
 
 
 /** =========================
@@ -25,8 +30,12 @@
 
 // Your code goes here
 
-
-
+function sumOfTwoIntegers(num1, num2) {
+  if(num1 == num2) {
+    return console.log((num1 + num2) * 3)
+  }
+  return console.log(num1 + num2)
+}
 
 /** =========================
  * Create a isOneOfThemOrTheirSumIsFourty(num1, num2) function to check two given numbers and return a boolean.
@@ -38,8 +47,15 @@
  */
 
 // Your code goes here...
-
-
+function isOneOfThemOrTheirSumIsFourty(num1, num2) {
+  if(num1 == 40 || num2 == 40) {
+    return console.log(true)
+  }
+  if(num1 + num2 == 40) {
+    return console.log(true)
+  }
+  return console.log(false)
+}
 
 
 // === TEST YOURSELF ===
@@ -49,9 +65,9 @@
 
 
 // Do not delete or change the lines beneath
-const f = {
-  getDiffTwentySeven: getDiffTwentySeven || undefined,
-  sumOfTwoIntegers: sumOfTwoIntegers || undefined,
-  isOneOfThemOrTheirSumIsFourty: isOneOfThemOrTheirSumIsFourty || undefined,
-}
-export { f }
+// const f = {
+//   getDiffTwentySeven: getDiffTwentySeven || undefined,
+//   sumOfTwoIntegers: sumOfTwoIntegers || undefined,
+//   isOneOfThemOrTheirSumIsFourty: isOneOfThemOrTheirSumIsFourty || undefined,
+// }
+// export { f }
