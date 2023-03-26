@@ -65,9 +65,9 @@ function isOneOfThemOrTheirSumIsFourty(num1, num2) {
 
 
 // Do not delete or change the lines beneath
-// const f = {
-//   getDiffTwentySeven: getDiffTwentySeven || undefined,
-//   sumOfTwoIntegers: sumOfTwoIntegers || undefined,
-//   isOneOfThemOrTheirSumIsFourty: isOneOfThemOrTheirSumIsFourty || undefined,
-// }
-// export { f }
+const f = {
+  getDiffTwentySeven: getDiffTwentySeven || undefined,
+  sumOfTwoIntegers: sumOfTwoIntegers || undefined,
+  isOneOfThemOrTheirSumIsFourty: isOneOfThemOrTheirSumIsFourty || undefined,
+}
+export { f }
