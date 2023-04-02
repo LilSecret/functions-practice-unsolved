@@ -15,9 +15,9 @@
 
 function getDiffTwentySeven(num) {
   if(num > 27) {
-    return console.log( Math.abs(num - 27) * 2 )
+    return Math.abs(num - 27) * 2 
   }
-  return console.log(27 - num)
+  return 27 - num
 }
 
 
@@ -32,9 +32,9 @@ function getDiffTwentySeven(num) {
 
 function sumOfTwoIntegers(num1, num2) {
   if(num1 == num2) {
-    return console.log((num1 + num2) * 3)
+    return (num1 + num2) * 3
   }
-  return console.log(num1 + num2)
+  return num1 + num2
 }
 
 /** =========================
@@ -49,12 +49,12 @@ function sumOfTwoIntegers(num1, num2) {
 // Your code goes here...
 function isOneOfThemOrTheirSumIsFourty(num1, num2) {
   if(num1 == 40 || num2 == 40) {
-    return console.log(true)
+    return true
   }
   if(num1 + num2 == 40) {
-    return console.log(true)
+    return true
   }
-  return console.log(false)
+  return false
 }
 
 

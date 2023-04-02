@@ -22,7 +22,8 @@ function doesArrayIncludeItemsBetweenVals(arr, num1, num2) {
     if(arr[i] > num1 && arr[i] < num2) {
       numbersWork = true;
       return numbersWork
-    } else {
+    }
+    else {
       numbersWork = false;
     }
   }
